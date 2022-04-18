@@ -1,12 +1,13 @@
 .login-form-container {
-    width: 600px;
+    width: 500px;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     margin: 10px auto;
-    box-shadow: -10px 15px #1436b3;
+
+    text-align: left;
 }
 
 .form-title {
@@ -16,17 +17,17 @@
     text-align: center;
 }
 
-.input-group label {
+.input-div label {
     display: block;
     font-size: 24px;
     margin-left: 5px;
 }
 
-.input-group {
-    margin-bottom: 10px;
+.input-div {
+    margin: 10px auto;
 }
 
-.input-group input {
+.input-div input {
     width: 415px;
     height: 40px;
     border: 1px solid #95A0A7;
@@ -49,8 +50,9 @@
 }
 
 p a {
-    color: #FF9900;
+    color: rgba(0, 123, 255, 0.719);
     text-decoration: none;
+    font-weight: 600;
 
 }
 

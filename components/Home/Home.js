@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import Banner from './banner/Banner';
 import Extra from './Extra/Extra';
@@ -12,7 +13,7 @@ const Home = () => {
             <Banner></Banner>
             <Extra></Extra>
             <Services></Services>
-            <button className='btn btn btn-primary w-50'>See more Programs</button>
+            <Link to={'/services'} className='btn btn btn-primary w-50'>See more Programs</Link>
 
 
         </div>
